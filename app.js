@@ -14,8 +14,7 @@ app.use(
   })
 );
 app.use(express.static("public"));
-mongoose.connect("mongodb+srv://milandsharma:S
-                 i123@cluster0.iypepdn.mongodb.net/todolistDB", {
+mongoose.connect("mongodb+srv://milandsharma:<"enter your password">@cluster0.iypepdn.mongodb.net/todolistDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
